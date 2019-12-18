@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97800" started-at="2019-12-17T23:02:38 IST" finished-at="2019-12-17T23:04:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97800" started-at="2019-12-17T23:02:38 IST" finished-at="2019-12-17T23:04:16 IST">
+      <class name="com.someoneCompany.ValidateNavigation">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.someoneCompany.ValidateNavigation@1dfe2924]" name="initializeBrowser" is-config="true" duration-ms="16492" started-at="2019-12-17T23:02:43 IST" finished-at="2019-12-17T23:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePagenavigation()[pri:0, instance:com.someoneCompany.ValidateNavigation@1dfe2924]" name="basePagenavigation" duration-ms="462" started-at="2019-12-17T23:03:18 IST" finished-at="2019-12-17T23:03:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.someoneCompany.ValidateNavigation@1dfe2924]" name="tearDown" is-config="true" duration-ms="2273" started-at="2019-12-17T23:04:12 IST" finished-at="2019-12-17T23:04:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.someoneCompany.ValidateNavigation -->
+      <class name="com.someoneCompany.Homepage">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.someoneCompany.Homepage@6ebc05a6]" name="initializeBrowser" is-config="true" duration-ms="4599" started-at="2019-12-17T23:02:38 IST" finished-at="2019-12-17T23:02:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.someoneCompany.Homepage@6ebc05a6]" name="basePagenavigation" duration-ms="35918" started-at="2019-12-17T23:03:19 IST" data-provider="getData" finished-at="2019-12-17T23:03:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="basePagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.someoneCompany.Homepage@6ebc05a6]" name="basePagenavigation" duration-ms="14283" started-at="2019-12-17T23:03:55 IST" data-provider="getData" finished-at="2019-12-17T23:04:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.someoneCompany.Homepage@6ebc05a6]" name="tearDown" is-config="true" duration-ms="2386" started-at="2019-12-17T23:04:09 IST" finished-at="2019-12-17T23:04:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.someoneCompany.Homepage -->
+      <class name="com.someoneCompany.ValidateTitle">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.someoneCompany.ValidateTitle@35d176f7]" name="initializeBrowser" is-config="true" duration-ms="18680" started-at="2019-12-17T23:02:59 IST" finished-at="2019-12-17T23:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePagenavigation()[pri:0, instance:com.someoneCompany.ValidateTitle@35d176f7]" name="basePagenavigation" duration-ms="326" started-at="2019-12-17T23:03:18 IST" finished-at="2019-12-17T23:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.someoneCompany.ValidateTitle@35d176f7]" name="tearDown" is-config="true" duration-ms="2246" started-at="2019-12-17T23:04:14 IST" finished-at="2019-12-17T23:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.someoneCompany.ValidateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
